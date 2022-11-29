@@ -1,0 +1,26 @@
+li {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.elt-con {
+    display: flex;
+}
+
+.delete {
+    margin: 4px;
+    background-color: rgb(215, 35, 35);
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 2px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.delete:hover{
+    opacity: 1;
+}
+
+.done {
+    text-decoration: line-through;
+}
